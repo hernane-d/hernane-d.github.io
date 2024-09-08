@@ -2,15 +2,96 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width-devide-width, initial-scale-1.0">
-        <title>HERNANE_HOMEPAGE</title>
-        <link rel="stylesheet" href="EstiloHernanehomepage.css">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title>Portfolio website</title>
     </head>
-    <body>
-        <input type="text" id="userInput">
-        <button onclick="armazenarValor()">Armazenar</button>
-        <p id="valorInserido"></p>
+<body>
+    <div class="background" id="inicio">
+        <nav>
+            <h2 class="logo">Portfolio</h2>
+            <ul class="cabecalho">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre">Sobre Mim</a></li>
+                <li><a href="#services">Serviços</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
 
-        <script src="script.js"></script>
-    </body>
+        <div class="main">
+            <h4>Olá, meu nome é</h4>
+            <h1>Hernane Tavares</h1>
+            <h3>Eu sou um desenvolvedor com mais de 20 anos de experiência</h3>
+            <div class="Container-btn">
+                <p class="subtitle">
+                    Sou um desenvolvedor JavaScript
+                </p>
+                <p class="subtitle">
+                    Além disso, trabalho com gestão de projetos e desenvolvimento Mainfraime!
+                </p>
+                <p class="subtitle">
+                    Podemos nos conhecer melhor?
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <section class="background-color-sobre" id="sobre">
+        <div class="main-sobre">
+            <img src="img/profile.jpg" alt="">
+            <div class="Text-sobre">
+                <h2>Sobre mim</h2>
+                <h5>Desenvolvedor de software</h5>
+                <p>Meu nome é Hernane, sou especializado em Sistemas Bancários.</p>
+                <p>Tenho experiência em desenvolvimento de software, bancos de dados e cobol</p>
+                <button type="button">Vamos Conversar!</button>
+            </div>
+        </div>
+    </section>
+
+    <div class="Container-servicos" id="services">
+        <div class="title">
+            <h2>Minhas habilidades</h2>
+        </div>
+
+        <div class="Caixa" id="habilidades">
+            <div class="Card">
+                <i class="fas fa-bars"></i>
+                <h5>Desenvolvedor Especialista Mainfraime e tecnologias mais recentes de front-end e back-end</h5>
+                <div class="Paragrafo-button">
+                    <p>Gostaria de um desenvolvedor muito experiênte com vasto conhecimentos em produtos bancários</p>
+                    <button type="button"><a href="https://github.com/hernane-d" class="decoration">Você pode saber mais aqui!</a></button>
+                </div>
+            </div>
+        </div>
+        <div class="Caixa" id="habilidades">
+            <div class="Card">
+                <i class="fas fa-bars"></i>
+                <h5>Gerente de projetos</h5>
+                <div class="Paragrafo-button">
+                    <p>Precisando fazer a gestão de um projeto? Sou especialista nessa área! Vamos conversar?</p>
+                    <button type="button"><a href="https://www.linkedin.com/in/hernane-tavares-2602aa93/" class="decoration">Você pode saber mais aqui!</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="me-contate" id="contato">
+        <p>Podemos bater um papo?</p>
+        <button type="button"><a href="https://wa.link/" class="decoration">Enviar mensagem</a></button>
+    </div>
+
+    <footer>
+        <h6>Hernane Tavares</h6>
+        <div class="Redes-sociais">
+            <a href="https://www.linkedin.com/in/hernane-tavares-2602aa93/"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <p class="end">Copyright By Hernane</p>
+    </footer>
+</body>
 </html>
